@@ -13,6 +13,7 @@ public class UIManager : MonoBehaviour
     {
         if (GameController.gameOver)
         {
+            Time.timeScale = 0;
             Cronometro.gameOver = true;
             endPanel.SetActive(true);
             timer.SetActive(false);

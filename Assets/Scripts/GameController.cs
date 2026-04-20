@@ -13,6 +13,7 @@ public static class GameController
         Cronometro.Init();
         PlayerHealth.Init();
         Score.Init();
+        Time.timeScale = 1;
     }
 
     public static void Collect()
